@@ -7,7 +7,10 @@
                 <i class="bi bi-plus-lg"></i> Tambah
             </a>
         </div>
+
         <div class="card-body">
+            <div class="table-responsive">
+                
             <table id="datatable" class="table table-bordered table-striped table-hover align-middle" style="width:100%">
                 <thead class="table-dark text-white">
                     <tr>
@@ -43,6 +46,7 @@
                     <?php endforeach; ?>
                 </tbody>
             </table>
+            </div>
         </div>
     </div>
 </div>
