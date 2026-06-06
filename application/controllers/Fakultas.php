@@ -12,7 +12,7 @@ class Fakultas extends CI_Controller {
 
     public function index()
     {
-        $data['title'] = 'Halaman Fakultas';
+        $data['title'] = 'Fakultas';
         $data['fakultas'] = $this->FakultasModel->getAll();
         
         $this->load->view('layout/header', $data);

@@ -12,7 +12,7 @@ class Prodi extends CI_Controller {
 
     public function index()
     {
-        $data['title'] = 'Halaman Program Studi';
+        $data['title'] = 'Program Studi';
 
         $data['prodi'] = $this->ProdiModel->getAll();
         
